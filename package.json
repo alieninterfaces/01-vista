@@ -1,0 +1,54 @@
+{
+  "name": "cjgammon.com",
+  "version": "1.0.0",
+  "description": "my website",
+  "main": "index.js",
+  "dependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^10.2.4",
+    "css-loader": "^6.7.1",
+    "ejs-loader": "^0.5.0",
+    "file-loader": "^6.2.0",
+    "gsap": "npm:@gsap/business@^3.11.4",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "js-cookie": "^3.0.1",
+    "json-loader": "^0.5.7",
+    "lit": "^2.2.0",
+    "lit-css-loader": "^1.2.2",
+    "rss": "^1.2.2",
+    "sass": "^1.49.8",
+    "sass-loader": "^13.2.0",
+    "snapsvg": "^0.5.1",
+    "snapsvg-cjs": "^0.0.6",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.2.6",
+    "url-loader": "^4.1.1",
+    "uuid": "^8.3.2",
+    "webpack": "^5.69.1",
+    "webpack-build-notifier": "^2.3.0",
+    "webpack-dev-server": "^4.7.4",
+    "webpack-shell-plugin": "^0.5.0",
+    "webpack-shell-plugin-next": "^2.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5",
+    "webpack-cli": "^4.9.2"
+  },
+  "scripts": {
+    "build": "webpack",
+    "prod": "webpack --mode production",
+    "watch": "webpack-dev-server --hot",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjgammon/cjgammon.com.git"
+  },
+  "author": "cjgammon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjgammon/cjgammon.com/issues"
+  },
+  "homepage": "https://github.com/cjgammon/cjgammon.com#readme"
+}

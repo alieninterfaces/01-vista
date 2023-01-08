@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist/",
+      "target": "es2017",
+      "module": "es2015",
+      "moduleResolution": "node",
+      "lib": ["es2017", "dom", "dom.iterable"],
+      "declaration": true,
+      "sourceMap": true,
+      "inlineSources": true,
+      "experimentalDecorators": true,
+      "resolveJsonModule": true,
+      "skipLibCheck": true,
+      "noImplicitAny": false,
+      "importHelpers": true,
+      "esModuleInterop": true,
+    },
+    "include": [
+      "**/*.ts",
+    ],
+    "exclude": [],
+  }
