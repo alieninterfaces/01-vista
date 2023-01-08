@@ -180,6 +180,10 @@ h1{
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 1em;
   margin: 1em 0;
+
+  &.bold{
+    font-weight: 800;
+  }
 }
 
 .line{
@@ -312,6 +316,7 @@ h1{
   align-items: flex-start;
   margin: 2em 0;
   font-size: 0.8rem;
+  height: 50px;
 
   .button-section-text{
     flex: 1;
