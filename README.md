@@ -1,5 +1,8 @@
-# cjgammon.com
+# AI01 - vista
 
+```
+npm install
+```
 
 ```
 npm run watch
